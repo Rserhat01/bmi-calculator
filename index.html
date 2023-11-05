@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI CALCULATOR</title>
+</head>
+<body>
+    <div class="start-button">
+        <button id="start" class="btn start-btn">Start</button>
+    </div>
+    <div class="container none">
+        <div class="displays">
+            <input type="number" id="cmInput" class="cm" placeholder="Your length (cm)">
+            <input type="number" id="kgInput" class="kg" placeholder="Your weight (kg)">
+        </div>
+        <div class="button">
+            <button class="btn calc">Calculate</button>
+        </div>
+        <div class="bmi-score none">
+            <h2 class="score">00</h2>
+        </div>
+        <div class="message">
+            <h2 class="health none">Your BMI is normal.</h2>
+            <h2 class="not-health none">Your BMI is high.</h2>
+            <h2 class="normal none">Your BMI is low.</h2>
+        </div>
+        <div class="delete">
+            <button class="btn delete-btn none">Delete</button>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

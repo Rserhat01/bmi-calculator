@@ -1,0 +1,88 @@
+html{
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 50px;
+    border-radius: 12px;
+    z-index: 1;
+}
+
+.start-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    z-index: 0;
+}
+
+.displays{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 12px 10px;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(60, 59, 59);
+    border:  none;
+    outline: none;
+    transition: .4s;
+    border-radius: 10px;
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+}
+.btn:hover{
+    background: radial-gradient(circle at 7.5% 24%, rgb(215, 248, 247) 25.5%, rgb(190, 228, 210) 62.3%, rgb(237, 161, 193) 93.8%);
+}
+
+.none{
+    display: none;
+}
+
+.message{
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.score{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.health{
+    background-color: greenyellow;
+    padding: 8px 8px;
+    border-radius: 8px;
+}
+
+.not-health{
+    background-color: rgb(194, 13, 4);
+    padding: 8px 8px;
+    border-radius: 8px;
+    color: white;
+}
+
+.normal{
+    background-color: rgb(166, 168, 25);
+    padding: 8px 8px;
+    border-radius: 8px;
+    color: white;
+}
